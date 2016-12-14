@@ -12,6 +12,8 @@
 		14751D9B1DFF75C800B93993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14751D991DFF75C800B93993 /* Main.storyboard */; };
 		14751D9D1DFF75C800B93993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14751D9C1DFF75C800B93993 /* Assets.xcassets */; };
 		14751DA01DFF75C800B93993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14751D9E1DFF75C800B93993 /* LaunchScreen.storyboard */; };
+		A77F91671E009F7A00467210 /* Exercise1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F91661E009F7A00467210 /* Exercise1ViewController.swift */; };
+		A77F91691E00AE9200467210 /* Exercise2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77F91681E00AE9200467210 /* Exercise2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		14751D9C1DFF75C800B93993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14751D9F1DFF75C800B93993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14751DA11DFF75C800B93993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77F91661E009F7A00467210 /* Exercise1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise1ViewController.swift; sourceTree = "<group>"; };
+		A77F91681E00AE9200467210 /* Exercise2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,6 @@
 		14751D941DFF75C800B93993 /* AC3.2-Programmatic-Autolayout */ = {
 			isa = PBXGroup;
 			children = (
-				14751D971DFF75C800B93993 /* ViewController.swift */,
 				14751DA71DFF75DD00B93993 /* Supporting Files */,
 			);
 			path = "AC3.2-Programmatic-Autolayout";
@@ -64,7 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				14751D951DFF75C800B93993 /* AppDelegate.swift */,
+				14751D971DFF75C800B93993 /* ViewController.swift */,
 				14751D991DFF75C800B93993 /* Main.storyboard */,
+				A77F91681E00AE9200467210 /* Exercise2ViewController.swift */,
+				A77F91661E009F7A00467210 /* Exercise1ViewController.swift */,
 				14751D9C1DFF75C800B93993 /* Assets.xcassets */,
 				14751D9E1DFF75C800B93993 /* LaunchScreen.storyboard */,
 				14751DA11DFF75C800B93993 /* Info.plist */,
@@ -144,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77F91671E009F7A00467210 /* Exercise1ViewController.swift in Sources */,
+				A77F91691E00AE9200467210 /* Exercise2ViewController.swift in Sources */,
 				14751D981DFF75C800B93993 /* ViewController.swift in Sources */,
 				14751D961DFF75C800B93993 /* AppDelegate.swift in Sources */,
 			);
@@ -267,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "AC3.2-Programmatic-Autolayout/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyc.AccessCode.AC3-2-Programmatic-Autolayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "AC3.2-Programmatic-Autolayout/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nyc.AccessCode.AC3-2-Programmatic-Autolayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,6 +315,7 @@
 				14751DA61DFF75C800B93993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
